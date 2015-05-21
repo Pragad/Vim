@@ -1,0 +1,41 @@
+export PATH=/usr/local/bin:$PATH
+
+export EDITOR=vim
+
+alias vi=vim
+alias cls=clear
+
+
+## a quick way to get out of current directory ##
+alias ..='cd ..'
+
+## get rid of command not found ##
+alias cd..='cd ..'
+
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+
+## Colorize the ls output ##
+## alias ls='ls --color=auto'
+
+## Use a long listing format ##
+alias ll="ls -lhA"
+alias lh="ls -lhAt"
+
+## Show hidden files ##
+alias l.='ls -d .* --color=auto'
+
+## Frequent cd lists
+alias cdprag='cd ~/Prag/'
+alias cddev='cd ~/Prag/Dev'
+alias cdcpp='cd ~/Prag/Dev/cpp'
+alias cdpy='cd ~/Prag/Dev/Python'
+alias cdjava='cd ~/Prag/Dev/java'
+
+## VIM aliases
+alias vimmac='vim ~/Prag/macbook_shortcuts.txt'
+alias vimrc='vim ~/.vim/vimrc.txt'
+
+## SSH Netapp
+## alias sshntap='sshpass -p 'timE@321' ssh pragadhe@cycrh6svl26.eng.netapp.com'
+alias sshntap='sshpass -p 'tiMe@321' ssh pragadhe@cycrh6svl26.eng.netapp.com'
